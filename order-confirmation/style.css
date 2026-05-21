@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 30px;
+}
+
+.receipt {
+  width: 350px;
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.receipt p {
+  text-align: center;
+}
+
+.item {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+}
+
+.total-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  font-size: 22px;
+
+  font-weight: bold;
+}
